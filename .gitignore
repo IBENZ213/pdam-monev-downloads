@@ -1,0 +1,36 @@
+# Git
+.git/
+*.git
+
+# Sensitive files - NEVER commit
+*.key
+*.pem
+*.env
+*.config
+*credentials*
+*secret*
+*password*
+*.db
+*.sqlite
+
+# Build artifacts (except releases)
+node_modules/
+dist/
+build/
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Temporary files
+*.tmp
+*.temp
+~*
